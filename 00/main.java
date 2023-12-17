@@ -128,3 +128,73 @@ class Main {
 }
 
  */
+
+/*
+ARRAYS
+import java.util.Arrays;
+
+class Main {
+  public static void main(String[] args) {
+
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // int startingIndex = 1;
+    // int endingIndex = 4;
+    // int endingIndex = 10;
+
+    int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+    // nt copyOfNumbers[] = Arrays.copyOf(numbers, 10);
+    // int copyOfNumbers[] = Arrays.copyOf(numbers, 2);
+    // int copyOfNumbers[] = Arrays.copyOfRange(numbers, startingIndex, endingIndex);
+    
+    //  Arrays.fill(numbers, 0);
+
+    // create object array with 5 positions
+    // char vowels[] = new char[5];
+    // char vowels[] = {'a', 'e', 'i', 'o', 'u' };
+    // char vowels[] = {'e', 'u', 'a', 'o', 'i' };
+
+    // vowels[2] = 'x';
+
+    
+    // a e i o u
+    // vowels[0] = 'a';
+    // vowels[1] = 'e';
+    // vowels[2] = 'i';
+    // vowels[3] = 'o';
+    // vowels[4] = 'u';
+    
+
+    // int startingIndex = 1;
+    // int endingIndex = 4;
+
+    // Arrays.sort(vowels, startingIndex, endingIndex);
+
+    // Arrays.sort(vowels);
+
+    // int startingIndex = 1;
+    // int endingIndex = 4;
+
+    // Arrays.fill(vowels, startingIndex, endingIndex, 'x');
+
+    // int startingIndex = 1;
+    // int endingIndex = 4;
+
+    // char key = 'o';
+    // char key = 'x';
+    // char key = 'b';
+
+    // int foundItemIndex = Arrays.binarySearch(vowels, startingIndex, endingIndex, key);
+    // int foundItemIndex = Arrays.binarySearch(vowels, key);
+
+    // System.out.println(Arrays.toString(vowels));
+    // System.out.println(vowels.length);
+    // System.out.println(foundItemIndex);
+
+    // System.out.println(Arrays.toString(numbers));
+    // System.out.println(Arrays.toString(copyOfNumbers));
+    // System.out.println(numbers == copyOfNumbers);
+    System.out.println(Arrays.equals(numbers, copyOfNumbers));
+  }
+}
+ */
